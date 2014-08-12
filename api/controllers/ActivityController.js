@@ -1,6 +1,7 @@
 module.exports = {
   index: function (req, res) {
-    var data = {name: "LooLoo"};
+    var activities = ["Dance", "Joke", "Sleep", "Sing", "Play Games"];
+    var data = {name: "LooLoo", activities: activities};
     return res.view(data);
   },
   hi: function (req, res) {
