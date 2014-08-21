@@ -1,0 +1,13 @@
+<h2>This is the question list page.</h2>
+
+
+<p>The meaning of life</p>
+<table>
+<% for (var i=0; i < questions.length; i++) { %>
+   <tr>
+     <td><%= questions[i] %></td>
+     <td><%= answers[i] %></td>
+   </tr>
+<% } %>
+</table>
+
