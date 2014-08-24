@@ -2,9 +2,11 @@
 <p>The Furby's name is <%= name %></p>
 
 <p>The Furby activities are:</p>
-<% for(var i=0; i<activities.length; i++) {%>
-   <div class="row">
-     <div class="col-md-4"><%= activities[i] %></div>
+<% for (var i=0; i<activities.length; i++) { %>
+   <div class="row" style="background-color: red">
+     <div class="col-md-4" style="background-color: green">
+       <%= activities[i] %>
+     </div>
      <div class="col-md-8">Fun!</div>
    </div>
 <% } %>
